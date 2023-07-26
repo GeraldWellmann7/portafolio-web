@@ -1,0 +1,164 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply  font-[Raleway];
+        
+        
+    }
+    li {
+        @apply px-4;
+        @apply cursor-pointer
+    }
+}
+
+.Home{
+    @apply flex flex-col text-white justify-start items-center
+}
+
+.nombre-home{
+    @apply text-4xl flex justify-center mt-16 md:text-6xl md:mt-20 font-Outfit
+}
+
+.especialidad-home{
+    @apply text-3xl md:text-4xl font-Outfit flex justify-center mt-3 md:text-4xl md:mt-4 md:mb-16
+}
+
+.texto-home{
+    @apply text-slate-300 font-Outfit text-2xl md:text-3xl ml-3 mt-4 md:ml-44 md:mr-44 md:text-center md:mb-10
+}
+
+.linkedin{
+    @apply flex justify-center shadow-sm hover:scale-110 duration-500
+}
+
+.github{
+    @apply flex justify-center shadow-sm hover:scale-110 duration-500
+}
+
+.contactame{
+    @apply border-2 rounded border-[#d946ef] p-2 w-[250px] text-lg tracking-widest hover:bg-pink-700 hover:dark:text-slate-900 ease-out duration-300
+}
+
+.about{
+    @apply flex justify-center  items-center w-full md:h-screen
+}
+
+.contenedor-about{
+    @apply w-full h-screen flex flex-col justify-center items-center
+}
+
+.sobre-mi{
+    @apply text-4xl font-Outfit text-white mb-10 md:text-6xl
+}
+
+.presentacion{
+    @apply text-slate-300 font-Outfit text-center mx-10 mb-10 md:mx-44 md:text-3xl
+}
+
+.curriculum{
+    @apply text-2xl font-Outfit text-white mb-2 md:text-3xl md:mb-3
+}
+
+.descargar-cv{
+    @apply text-white border-2 border-white py-2 px-2 hover:bg-blue-400 hover:border-blue-400 md:text-2xl mt-4
+}
+
+.skills{
+    @apply w-full h-screen font-Outfit
+}
+
+.label-skills{
+    @apply pt-10  flex justify-center text-4xl font-bold text-white md:mt-10
+}
+
+.container-skills{
+    @apply flex-row grid grid-cols-2 sm:grid-cols-4 gap-6 pt-10 md:mt-20
+}
+
+.shadow{
+    @apply shadow-lg shadow-[#040c16]
+}
+
+.java{
+    @apply w-40 h-40 mx-auto py-2 hover:scale-110 duration-500
+}
+
+.html{
+    @apply w-40 h-40 mx-auto py-2 hover:scale-110 duration-500
+}
+
+.css{
+    @apply h-40 mx-auto py-2 hover:scale-110 duration-500
+}
+
+.js{
+    @apply h-40 mx-auto py-2 hover:scale-110 duration-500
+}
+
+.image2{
+    @apply w-40 h-40 mx-auto py-2 hover:scale-110 duration-500
+}
+
+.bootstrap{
+    @apply w-40 h-40 mx-auto py-2 hover:scale-110 duration-500
+}
+
+.git{
+    @apply w-40 h-40 mx-auto py-2 hover:scale-110 duration-500
+}
+
+.tailwind{
+    @apply w-40 h-40 mx-auto py-2 hover:scale-110 duration-500
+}
+
+.work{
+    @apply w-full h-screen flex flex-col mt-80  md:mt-16  md:w-96  md:ml-96 md:pl-48 pt-6
+}
+
+.work-titulo{
+    @apply text-4xl flex justify-center text-white mb-2 mt-12 font-Outfit
+}
+
+.work-section{
+    @apply my-12 flex flex-col items-center justify-center w-[90%] m-auto lg:flex-row 
+}
+
+.card-work{
+    @apply rounded-lg bg-white  m-3 mx-5
+}
+
+.decoration-work{
+    @apply bg-slate-200 rounded-lg px-2 mr-2 text-slate-700
+}
+
+
+.nav{
+    @apply z-10 fixed w-full h-[50px] flex justify-end items-center px-2  text-white font-bold text-base
+}
+
+.nav-hidden{
+    @apply hidden md:flex  h-[50px] flex items-center
+}
+
+.mobile-menu{
+    @apply absolute top-0 left-0 w-full h-screen bg-sky-800 flex flex-col justify-center items-center
+}
+
+.contacto{
+    @apply w-full h-screen flex flex-col justify-end items-center
+}
+
+.titulo-contacto{
+    @apply text-4xl font-bold inline  text-white
+}
+
+.form{
+    @apply mt-1 max-w-[600px] w-full
+}
+
+.button-form{
+    @apply text-black border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-1 my-6 mx-auto flex items-center font-Outfit
+}
