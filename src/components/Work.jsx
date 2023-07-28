@@ -30,7 +30,7 @@ export default function Portfolio(){
             />
 </a>
             
-            <h4 className="font-bold my-2">TIENDA ONLINE</h4>
+            <h4 className="font-bold my-2">TIENDA</h4>
             <article className="flex justify-between">
               <div className="flex flex-nowrap items-center">
                 <span className="decoration-work"
