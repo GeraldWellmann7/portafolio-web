@@ -1,11 +1,10 @@
 
-import { data } from "../data";
-import Office1 from '../assets/Oficce1.jpg';
-import Office2 from '../assets/Oficce2.jpg';
+import tienda from '../assets/tienda-online.png';
+
 
 export default function Portfolio(){
 
-  const project = data;
+  
 
     return(
         <div name="Work" className='work'>
@@ -22,9 +21,9 @@ export default function Portfolio(){
 
                   <div className="card-work border-1">
           <div className="m-2 md:w-[500px]">
-          <a href="https://github.com/GeraldWellmann7" target="_blank" title="HTML link image example">
+          <a href="https://geraldwellmann7.github.io/tienda-online/" target="_blank" title="HTML link image example">
           <img
-              src={Office1}
+              src={tienda}
               alt=""
               className="opacity-80 hover:opacity-100 "
             />
@@ -39,6 +38,10 @@ export default function Portfolio(){
                   >CSS</span         >
                 <span className="decoration-work"
                   >JS</span >
+                  <span className="decoration-work"
+                  >REACT</span >
+                  <span className="decoration-work"
+                  >TAILWIND</span >
               </div>
               
             </article>

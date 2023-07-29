@@ -1,5 +1,5 @@
 import image from '../assets/image1.jpg';
-import pdf from '../assets/cvgw.pdf';
+import pdf from '../assets/GeraldBahamonde.pdf';
 
 
 
@@ -36,7 +36,7 @@ return(
         </div>
         
         <button className="descargar-cv">
-      <a href={pdf} target="_blank" rel="noopener noreferrer" download="nombre_pretendido_del archivo.pdf"> 
+      <a href={pdf} target="_blank" rel="noopener noreferrer" download="GeraldBahamonde.pdf"> 
       Descargar CV
       </a>
     </button>
