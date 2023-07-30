@@ -16,7 +16,7 @@ export default function Contacto() {
 
             
             <Formik
-            initialValues={{message:"Hola te conecto por..." }}
+            initialValues={{message:"Hola te contacto por..." }}
             validate={ values=>{
                 
                 let errors = {};
