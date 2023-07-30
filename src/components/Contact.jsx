@@ -33,7 +33,7 @@ export default function Contacto() {
             }}
             onSubmit={
                 (values, { setSubmitting }) => {
-                    let url = "https://formspree.io/f/xeqwybnw"
+                    let url = "https://formspree.io/f/xdoraegg"
                     let formData = new FormData();
                     formData.append("name", values.name);
                     formData.append("email", values.email);
