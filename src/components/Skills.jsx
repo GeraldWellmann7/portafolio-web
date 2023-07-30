@@ -1,12 +1,13 @@
 
 import image2 from '../assets/image3.png';
-import bootstrap from '../assets/bootstrap.png'
+import mysql from '../assets/mysql.png'
 import html from '../assets/html.png'
 import css from '../assets/css.png'
 import js from '../assets/js.png'
 import java from '../assets/java.png'
 import git from '../assets/git.png'
 import tailwind from '../assets/tailwind.png'
+import bootstrap from '../assets/bootstrap.png'
 
 export default function Skills(){
     return(
@@ -35,11 +36,11 @@ export default function Skills(){
             </div>
 
             <div className='shadow'>
-            <img src={image2} alt="" className='image2'/>
+            <img src={bootstrap} alt="" className='bootstrap'/>
             </div>
 
             <div className='shadow'>
-            <img src={bootstrap} alt="" className='bootstrap'/>
+            <img src={mysql} alt="" className='bootstrap'/>
             </div>
            
             <div className='shadow'>
@@ -49,8 +50,13 @@ export default function Skills(){
             <div className='shadow'>
             <img src={tailwind} alt="" className='tailwind'/>
             </div>
+
+            
             
             </div>  
+            <div className='shadow'>
+            <img src={image2} alt="" className='image2'/>
+            </div>
         </div>
     )
 }

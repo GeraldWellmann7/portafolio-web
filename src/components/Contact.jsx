@@ -1,8 +1,10 @@
-import linkedin from '../assets/linkedin.png';
-import github from '../assets/github.png';
+
 import {Field, Form, Formik, ErrorMessage} from "formik";
 
 export default function Contacto() {
+
+
+
     return(
         <div name="Contact" className='contacto'>
             
@@ -38,6 +40,7 @@ export default function Contacto() {
                     formData.append("name", values.name);
                     formData.append("email", values.email);
                     formData.append("message", values.message);
+                    
 
                     fetch(url,{
                         method: "POST",
@@ -48,8 +51,11 @@ export default function Contacto() {
                     }).then(response => {
                         setSubmitting(false);
                         alert("Gracias por contactarme");
+                        
                     })
+                    cleanForm();
                 }
+                
             }
         >
             
