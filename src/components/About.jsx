@@ -1,4 +1,3 @@
-import image from '../assets/image1.jpg';
 import pdf from '../assets/GeraldBahamonde.pdf';
 
 
@@ -27,7 +26,7 @@ return(
             <p>Soy un Analista Programador especializado en el Desarrollo de Paginas web, mas especificamente
                 de lado del Front End. Cuento con una muy buena base técnica en las tecnologías que utilizo,
                 ademas de contar con habilidades de comunicación acertiva y pensamiento análitico.
-                Adjunto mi Curriculum Vitae para que vean en que me desempeño.
+                Adjunto mi Curriculum Vitae para que puedan ver en que me desempeño.
                   </p>
         </div>
         

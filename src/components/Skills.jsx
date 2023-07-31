@@ -36,7 +36,7 @@ export default function Skills(){
             </div>
 
             <div className='shadow'>
-            <img src={bootstrap} alt="" className='bootstrap'/>
+            <img src={bootstrap} alt="" className='image2'/>
             </div>
 
             <div className='shadow'>
