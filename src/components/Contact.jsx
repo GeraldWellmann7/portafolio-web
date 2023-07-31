@@ -3,7 +3,7 @@ import {Field, Form, Formik, ErrorMessage} from "formik";
 
 export default function Contacto() {
 
-
+    
 
     return(
         <div name="Contact" className='contacto'>
@@ -18,7 +18,7 @@ export default function Contacto() {
 
             
             <Formik
-            initialValues={{message:"Hola te contacto por..." }}
+            initialValues={{message:""  }}
             validate={ values=>{
                 
                 let errors = {};
@@ -51,9 +51,11 @@ export default function Contacto() {
                     }).then(response => {
                         setSubmitting(false);
                         alert("Gracias por contactarme");
-                        
+                        values.name="";
+                        values.email="";
+                        values.message="";
                     })
-                    cleanForm();
+                    
                 }
                 
             }

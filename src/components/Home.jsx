@@ -6,7 +6,7 @@ import {
     FaFacebook,
     FaLinkedinIn,
   } from 'react-icons/fa';
-
+  import { Link } from 'react-scroll';  
   
 
  const Home = () => {
@@ -47,11 +47,15 @@ import {
             </div>
 
             <div className='mb-20'>
+
+            <Link to='Contact' smooth={true} duration={500}>
             <button
               className ="contactame"
             >
               Contactame
             </button>
+              </Link>
+            
             </div>
             
     </div>

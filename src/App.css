@@ -102,6 +102,10 @@
     @apply w-40 h-40 mx-auto py-2 hover:scale-110 duration-500
 }
 
+.typescript{
+    @apply w-40 h-40 mx-auto py-2 hover:scale-110 duration-500
+}
+
 .bootstrap{
     @apply w-40 h-40 mx-auto py-2 hover:scale-110 duration-500
 }
