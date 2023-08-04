@@ -8,7 +8,7 @@ import java from '../assets/java.png'
 import git from '../assets/git.png'
 import tailwind from '../assets/tailwind.png'
 import bootstrap from '../assets/bootstrap.png'
-import typescript from '../assets/typescript.png'
+import nodejs from '../assets/nodejs.png'
 
 
 export default function Skills(){
@@ -57,13 +57,13 @@ export default function Skills(){
             
             </div>  
 
-            <div className='flex flex-row'>
+            <div className='flex flex-row gap-6'>
             <div className='shadow'>
             <img src={image2} alt="" className='image2'/>
             </div>
 
             <div className='shadow'>
-            <img src={typescript} alt="" className='typescript'/>
+            <img src={nodejs} alt="" className='nodejs'/>
             </div>
             </div>
             
