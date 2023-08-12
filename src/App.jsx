@@ -12,7 +12,7 @@ function App() {
   
 
   return (
-    <div name='App' className='bg-sky-800'>
+    <div name='App' className='bg-sky-800 '>
 
         <Nav />
         <Home />

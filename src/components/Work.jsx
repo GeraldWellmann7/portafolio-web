@@ -20,7 +20,7 @@ export default function Portfolio(){
                   
 
                   <div className="card-work border-1">
-          <div className="m-2 w-[400px] md:w-[500px]">
+          <div className="m-2 w-[200px] md:w-[500px]">
           <a href="https://geraldwellmann7.github.io/tienda-online/" target="_blank" title="HTML link image example">
           <img
               src={tienda}
@@ -32,6 +32,8 @@ export default function Portfolio(){
             <h4 className="font-bold my-2">TIENDA</h4>
             <article className="flex justify-between">
               <div className="flex flex-nowrap items-center">
+
+                <div className='flex flex-col md:flex-row'>
                 <span className="decoration-work"
                   >HTML</span    >
                 <span className="decoration-work"
@@ -42,6 +44,8 @@ export default function Portfolio(){
                   >REACT</span >
                   <span className="decoration-work"
                   >TAILWIND</span >
+                </div>
+                
               </div>
               
             </article>
@@ -51,7 +55,7 @@ export default function Portfolio(){
         </div>
 
         <div className="card-work border-1">
-          <div className="m-2 w-[400px] md:w-[525px] ">
+          <div className="m-2 w-[200px] md:w-[525px] ">
           <a href="https://geraldwellmann7.github.io/login-react/" target="_blank" title="HTML link image example">
           <img
               src={Login2}
@@ -62,7 +66,10 @@ export default function Portfolio(){
             
             <h4 className="font-bold my-2">TIENDA</h4>
             <article className="flex justify-between">
-              <div className="flex flex-nowrap items-center">
+              <div className="flex flex-nowrap items-center" >
+
+
+                <div className='flex flex-col md:flex-row'>
                 <span className="decoration-work"
                   >HTML</span    >
                 <span className="decoration-work"
@@ -76,6 +83,8 @@ export default function Portfolio(){
                   <span className="decoration-work"
                   >FIREBASE</span >
               </div>
+                </div>
+                
               
             </article>
           </div>

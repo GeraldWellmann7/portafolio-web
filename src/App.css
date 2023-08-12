@@ -6,7 +6,6 @@
     body {
         @apply  font-[Raleway];
         
-        
     }
     li {
         @apply px-4;
@@ -16,7 +15,7 @@
 
 
 .Home{
-    @apply  text-white flex flex-col justify-center items-center
+    @apply w-full text-white flex flex-col justify-center items-center 
 }
 
 .nombre-home{
@@ -24,7 +23,7 @@
 }
 
 .especialidad-home{
-    @apply text-3xl md:text-4xl font-Outfit flex justify-center mt-3 md:text-4xl md:mt-4 md:mb-16
+    @apply text-3xl  font-Outfit flex justify-center mt-3 md:text-4xl md:mt-4 md:mb-16
 }
 
 .texto-home{
@@ -76,7 +75,7 @@
 }
 
 .container-skills{
-    @apply flex-row grid grid-cols-2 sm:grid-cols-4 gap-6 pt-10 md:mt-5
+    @apply flex-row grid grid-cols-2 sm:grid-cols-4 gap-6 pt-10 md:mt-5 
 }
 
 .shadow{
@@ -120,7 +119,7 @@
 }
 
 .work{
-    @apply w-full h-screen flex flex-col flex flex-col justify-center items-center md:pt-6 grid gap-4
+    @apply w-full h-screen flex flex-col justify-center items-center md:pt-6 grid gap-4 
 }
 
 .work-titulo{
@@ -136,7 +135,7 @@
 }
 
 .decoration-work{
-    @apply bg-slate-200 rounded-lg px-2 mr-2 text-slate-700
+    @apply bg-slate-200 rounded-lg px-2 mr-2 text-slate-700 text-xs md:text-lg
 }
 
 
@@ -145,7 +144,7 @@
 }
 
 .nav-hidden{
-    @apply hidden md:flex  h-[50px] flex items-center
+    @apply hidden md:flex  h-[50px] flex items-center 
 }
 
 .mobile-menu{
