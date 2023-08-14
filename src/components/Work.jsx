@@ -28,12 +28,14 @@ export default function Portfolio(){
               className="opacity-80 hover:opacity-100 "
             />
 </a>
+            <div className='flex justify-center'>
+            <h4 className="font-bold my-2">TIENDA ONLINE</h4>
+            </div>
             
-            <h4 className="font-bold my-2">TIENDA</h4>
-            <article className="flex justify-between">
-              <div className="flex flex-nowrap items-center">
+            <article className="flex justify-center">
+              <div className="flex flex-nowrap items-center ">
 
-                <div className='flex flex-col md:flex-row'>
+                <div className='grid grid-cols-2 md:flex flex-row'>
                 <span className="decoration-work"
                   >HTML</span    >
                 <span className="decoration-work"
@@ -64,12 +66,14 @@ export default function Portfolio(){
             />
 </a>
             
-            <h4 className="font-bold my-2">TIENDA</h4>
-            <article className="flex justify-between">
+            <div className='flex justify-center'>
+            <h4 className="font-bold my-2">LOGIN FIREBASE</h4>
+            </div>
+            <article className="flex justify-center">
               <div className="flex flex-nowrap items-center" >
 
 
-                <div className='flex flex-col md:flex-row'>
+                <div className='grid grid-cols-2 md:flex flex-row'>
                 <span className="decoration-work"
                   >HTML</span    >
                 <span className="decoration-work"

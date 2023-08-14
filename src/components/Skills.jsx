@@ -9,6 +9,8 @@ import git from '../assets/git.png'
 import tailwind from '../assets/tailwind.png'
 import bootstrap from '../assets/bootstrap.png'
 import nodejs from '../assets/nodejs.png'
+import sass from '../assets/sass.png'
+import typescript from '../assets/typescript.png'
 
 
 export default function Skills(){
@@ -65,7 +67,19 @@ export default function Skills(){
             <div className='shadow'>
             <img src={nodejs} alt="" className='nodejs'/>
             </div>
+
+            <div className='shadow'>
+            <img src={typescript} alt="" className='typescript'/>
             </div>
+
+            <div className='shadow'>
+            <img src={sass} alt="" className='sass'/>
+            </div>
+
+
+
+            </div>
+            
             
         </div>
     )
